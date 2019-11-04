@@ -1,0 +1,70 @@
+
+
+/***********************************************************************
+ *  About
+ **********************************************************************/
+ 
+ h1{
+    color:blue;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+.profile-img{
+    width: 500px;
+    border-radius: 5%;
+    height:100%;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin: 5% ;
+    padding: 1.5%;
+    // text-align: center;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.about:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+@media only screen and (max-width: 760px) {
+    .about{
+        display: block;
+    }
+    .profile-img{
+        width: 99%;
+    }
+}
+
+.info{
+    margin-left: 1%;
+    width: 100%;
+    padding: 1%;
+    background: rgb(223, 219, 219);
+    border-radius: 1%;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;    
+    h1{
+        text-align: center;
+    }
+}
+
+ul{
+    list-style-type: none;
+}
+
+span{
+    font-weight: bold;
+}
+
+li{
+    margin: 4em 0;
+}
